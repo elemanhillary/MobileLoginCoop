@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		691818E32B710C4B00C7BF05 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 691818E22B710C4B00C7BF05 /* Network.swift */; };
+		6919BC1B2B7104F7005E9420 /* MobileLoginCooPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919BC1A2B7104F7005E9420 /* MobileLoginCooPApp.swift */; };
+		6919BC1F2B7104F7005E9420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6919BC1E2B7104F7005E9420 /* Assets.xcassets */; };
+		6919BC222B7104F7005E9420 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6919BC212B7104F7005E9420 /* Preview Assets.xcassets */; };
+		6919BC2C2B7104F7005E9420 /* MobileLoginCooPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919BC2B2B7104F7005E9420 /* MobileLoginCooPTests.swift */; };
+		6919BC362B7104F7005E9420 /* MobileLoginCooPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919BC352B7104F7005E9420 /* MobileLoginCooPUITests.swift */; };
+		6919BC382B7104F7005E9420 /* MobileLoginCooPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919BC372B7104F7005E9420 /* MobileLoginCooPUITestsLaunchTests.swift */; };
+		6919BC482B710528005E9420 /* BaseInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919BC442B710528005E9420 /* BaseInputView.swift */; };
+		6919BC492B710528005E9420 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919BC452B710528005E9420 /* Auth.swift */; };
+		6919BC4A2B710528005E9420 /* WelcomeImageTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919BC462B710528005E9420 /* WelcomeImageTextView.swift */; };
+		6919BC4B2B710528005E9420 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919BC472B710528005E9420 /* BaseView.swift */; };
+		6919BC4D2B710990005E9420 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6919BC4C2B710990005E9420 /* Color+.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6919BC282B7104F7005E9420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6919BC0F2B7104F7005E9420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6919BC162B7104F7005E9420;
+			remoteInfo = MobileLoginCooP;
+		};
+		6919BC322B7104F7005E9420 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6919BC0F2B7104F7005E9420 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6919BC162B7104F7005E9420;
+			remoteInfo = MobileLoginCooP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		691818E22B710C4B00C7BF05 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		6919BC172B7104F7005E9420 /* MobileLoginCooP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileLoginCooP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6919BC1A2B7104F7005E9420 /* MobileLoginCooPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoginCooPApp.swift; sourceTree = "<group>"; };
+		6919BC1E2B7104F7005E9420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6919BC212B7104F7005E9420 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6919BC272B7104F7005E9420 /* MobileLoginCooPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileLoginCooPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6919BC2B2B7104F7005E9420 /* MobileLoginCooPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoginCooPTests.swift; sourceTree = "<group>"; };
+		6919BC312B7104F7005E9420 /* MobileLoginCooPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileLoginCooPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6919BC352B7104F7005E9420 /* MobileLoginCooPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoginCooPUITests.swift; sourceTree = "<group>"; };
+		6919BC372B7104F7005E9420 /* MobileLoginCooPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileLoginCooPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6919BC442B710528005E9420 /* BaseInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseInputView.swift; sourceTree = "<group>"; };
+		6919BC452B710528005E9420 /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		6919BC462B710528005E9420 /* WelcomeImageTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeImageTextView.swift; sourceTree = "<group>"; };
+		6919BC472B710528005E9420 /* BaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6919BC4C2B710990005E9420 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6919BC142B7104F7005E9420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6919BC242B7104F7005E9420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6919BC2E2B7104F7005E9420 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6919BC0E2B7104F7005E9420 = {
+			isa = PBXGroup;
+			children = (
+				6919BC192B7104F7005E9420 /* MobileLoginCooP */,
+				6919BC2A2B7104F7005E9420 /* MobileLoginCooPTests */,
+				6919BC342B7104F7005E9420 /* MobileLoginCooPUITests */,
+				6919BC182B7104F7005E9420 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6919BC182B7104F7005E9420 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6919BC172B7104F7005E9420 /* MobileLoginCooP.app */,
+				6919BC272B7104F7005E9420 /* MobileLoginCooPTests.xctest */,
+				6919BC312B7104F7005E9420 /* MobileLoginCooPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6919BC192B7104F7005E9420 /* MobileLoginCooP */ = {
+			isa = PBXGroup;
+			children = (
+				6919BC452B710528005E9420 /* Auth.swift */,
+				6919BC442B710528005E9420 /* BaseInputView.swift */,
+				6919BC472B710528005E9420 /* BaseView.swift */,
+				6919BC462B710528005E9420 /* WelcomeImageTextView.swift */,
+				6919BC1A2B7104F7005E9420 /* MobileLoginCooPApp.swift */,
+				6919BC1E2B7104F7005E9420 /* Assets.xcassets */,
+				6919BC202B7104F7005E9420 /* Preview Content */,
+				6919BC4C2B710990005E9420 /* Color+.swift */,
+				691818E22B710C4B00C7BF05 /* Network.swift */,
+			);
+			path = MobileLoginCooP;
+			sourceTree = "<group>";
+		};
+		6919BC202B7104F7005E9420 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6919BC212B7104F7005E9420 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6919BC2A2B7104F7005E9420 /* MobileLoginCooPTests */ = {
+			isa = PBXGroup;
+			children = (
+				6919BC2B2B7104F7005E9420 /* MobileLoginCooPTests.swift */,
+			);
+			path = MobileLoginCooPTests;
+			sourceTree = "<group>";
+		};
+		6919BC342B7104F7005E9420 /* MobileLoginCooPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6919BC352B7104F7005E9420 /* MobileLoginCooPUITests.swift */,
+				6919BC372B7104F7005E9420 /* MobileLoginCooPUITestsLaunchTests.swift */,
+			);
+			path = MobileLoginCooPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6919BC162B7104F7005E9420 /* MobileLoginCooP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6919BC3B2B7104F7005E9420 /* Build configuration list for PBXNativeTarget "MobileLoginCooP" */;
+			buildPhases = (
+				6919BC132B7104F7005E9420 /* Sources */,
+				6919BC142B7104F7005E9420 /* Frameworks */,
+				6919BC152B7104F7005E9420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileLoginCooP;
+			productName = MobileLoginCooP;
+			productReference = 6919BC172B7104F7005E9420 /* MobileLoginCooP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6919BC262B7104F7005E9420 /* MobileLoginCooPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6919BC3E2B7104F7005E9420 /* Build configuration list for PBXNativeTarget "MobileLoginCooPTests" */;
+			buildPhases = (
+				6919BC232B7104F7005E9420 /* Sources */,
+				6919BC242B7104F7005E9420 /* Frameworks */,
+				6919BC252B7104F7005E9420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6919BC292B7104F7005E9420 /* PBXTargetDependency */,
+			);
+			name = MobileLoginCooPTests;
+			productName = MobileLoginCooPTests;
+			productReference = 6919BC272B7104F7005E9420 /* MobileLoginCooPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6919BC302B7104F7005E9420 /* MobileLoginCooPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6919BC412B7104F7005E9420 /* Build configuration list for PBXNativeTarget "MobileLoginCooPUITests" */;
+			buildPhases = (
+				6919BC2D2B7104F7005E9420 /* Sources */,
+				6919BC2E2B7104F7005E9420 /* Frameworks */,
+				6919BC2F2B7104F7005E9420 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6919BC332B7104F7005E9420 /* PBXTargetDependency */,
+			);
+			name = MobileLoginCooPUITests;
+			productName = MobileLoginCooPUITests;
+			productReference = 6919BC312B7104F7005E9420 /* MobileLoginCooPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6919BC0F2B7104F7005E9420 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6919BC162B7104F7005E9420 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					6919BC262B7104F7005E9420 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6919BC162B7104F7005E9420;
+					};
+					6919BC302B7104F7005E9420 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 6919BC162B7104F7005E9420;
+					};
+				};
+			};
+			buildConfigurationList = 6919BC122B7104F7005E9420 /* Build configuration list for PBXProject "MobileLoginCooP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6919BC0E2B7104F7005E9420;
+			productRefGroup = 6919BC182B7104F7005E9420 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6919BC162B7104F7005E9420 /* MobileLoginCooP */,
+				6919BC262B7104F7005E9420 /* MobileLoginCooPTests */,
+				6919BC302B7104F7005E9420 /* MobileLoginCooPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6919BC152B7104F7005E9420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6919BC222B7104F7005E9420 /* Preview Assets.xcassets in Resources */,
+				6919BC1F2B7104F7005E9420 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6919BC252B7104F7005E9420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6919BC2F2B7104F7005E9420 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6919BC132B7104F7005E9420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6919BC4A2B710528005E9420 /* WelcomeImageTextView.swift in Sources */,
+				6919BC4D2B710990005E9420 /* Color+.swift in Sources */,
+				6919BC1B2B7104F7005E9420 /* MobileLoginCooPApp.swift in Sources */,
+				6919BC4B2B710528005E9420 /* BaseView.swift in Sources */,
+				6919BC482B710528005E9420 /* BaseInputView.swift in Sources */,
+				691818E32B710C4B00C7BF05 /* Network.swift in Sources */,
+				6919BC492B710528005E9420 /* Auth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6919BC232B7104F7005E9420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6919BC2C2B7104F7005E9420 /* MobileLoginCooPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6919BC2D2B7104F7005E9420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6919BC362B7104F7005E9420 /* MobileLoginCooPUITests.swift in Sources */,
+				6919BC382B7104F7005E9420 /* MobileLoginCooPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6919BC292B7104F7005E9420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6919BC162B7104F7005E9420 /* MobileLoginCooP */;
+			targetProxy = 6919BC282B7104F7005E9420 /* PBXContainerItemProxy */;
+		};
+		6919BC332B7104F7005E9420 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6919BC162B7104F7005E9420 /* MobileLoginCooP */;
+			targetProxy = 6919BC322B7104F7005E9420 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6919BC392B7104F7005E9420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6919BC3A2B7104F7005E9420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6919BC3C2B7104F7005E9420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileLoginCooP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cooperativeB.MobileLoginCooP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6919BC3D2B7104F7005E9420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MobileLoginCooP/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cooperativeB.MobileLoginCooP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6919BC3F2B7104F7005E9420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cooperativeB.MobileLoginCooPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileLoginCooP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileLoginCooP";
+			};
+			name = Debug;
+		};
+		6919BC402B7104F7005E9420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cooperativeB.MobileLoginCooPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobileLoginCooP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MobileLoginCooP";
+			};
+			name = Release;
+		};
+		6919BC422B7104F7005E9420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cooperativeB.MobileLoginCooPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileLoginCooP;
+			};
+			name = Debug;
+		};
+		6919BC432B7104F7005E9420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cooperativeB.MobileLoginCooPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobileLoginCooP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6919BC122B7104F7005E9420 /* Build configuration list for PBXProject "MobileLoginCooP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6919BC392B7104F7005E9420 /* Debug */,
+				6919BC3A2B7104F7005E9420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6919BC3B2B7104F7005E9420 /* Build configuration list for PBXNativeTarget "MobileLoginCooP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6919BC3C2B7104F7005E9420 /* Debug */,
+				6919BC3D2B7104F7005E9420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6919BC3E2B7104F7005E9420 /* Build configuration list for PBXNativeTarget "MobileLoginCooPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6919BC3F2B7104F7005E9420 /* Debug */,
+				6919BC402B7104F7005E9420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6919BC412B7104F7005E9420 /* Build configuration list for PBXNativeTarget "MobileLoginCooPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6919BC422B7104F7005E9420 /* Debug */,
+				6919BC432B7104F7005E9420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6919BC0F2B7104F7005E9420 /* Project object */;
+}
